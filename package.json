@@ -1,0 +1,29 @@
+{
+  "name": "bolg",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "ejs-mate": "^2.3.0",
+    "express": "~4.15.2",
+    "express-session": "^1.15.6",
+    "mongodb": "^2.2.33",
+    "morgan": "~1.8.1",
+    "mysql": "^2.15.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "express-ejs-layouts": "^2.3.1",
+    "express-partials": "^0.3.0"
+  }
+}

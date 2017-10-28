@@ -1,0 +1,5 @@
+<!--传递给 user 视图-->
+<% if (user) { %>
+<%- partial('say') %>
+<% } %>
+<%- partial('posts', {posts:posts}) %>
